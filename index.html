@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张三的作品集</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <div class="nav-container">
+            <h2>张三 Portfolio</h2>
+            <ul>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 个人简介 -->
+    <section id="about" class="section">
+        <div class="container">
+            <h1>👋 你好，我是张三</h1>
+            <p class="intro">
+                一名热爱编程的数据分析师 / 全栈开发者 / 学生<br>
+                专注于数据可视化、机器学习和Web开发
+            </p>
+            <div class="about-content">
+                <p>
+                    🎓 毕业于 XX大学 计算机科学专业<br>
+                    💼 擅长使用 Python、JavaScript 进行数据分析和Web开发<br>
+                    🌱 目前正在学习深度学习和云计算技术<br>
+                    📫 欢迎交流合作！
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能展示 -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2>💻 技能栈</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>前端开发</h3>
+                    <div class="skill-bar">
+                        <div class="skill-item">
+                            <span>HTML/CSS</span>
+                            <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React</span>
+                            <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>后端开发</h3>
+                    <div class="skill-bar">
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="progress"><div class="progress-bar" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Django/Flask</span>
+                            <div class="progress"><div class="progress-bar" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>SQL</span>
+                            <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>数据科学</h3>
+                    <div class="skill-bar">
+                        <div class="skill-item">
+                            <span>Pandas/NumPy</span>
+                            <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>数据可视化</span>
+                            <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>机器学习</span>
+                            <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <h3>工具 & 其他</h3>
+                    <div class="skill-bar">
+                        <div class="skill-item">
+                            <span>Git/GitHub</span>
+                            <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Docker</span>
+                            <div class="progress"><div class="progress-bar" style="width: 65%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>云服务</span>
+                            <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 项目列表 -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>🚀 我的项目</h2>
+            
+            <!-- 项目1 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>📊 数据可视化分析平台</h3>
+                    <span class="project-tag">Streamlit</span>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        <strong>项目简介：</strong>
+                        基于 Streamlit 开发的交互式数据分析工具，支持多种数据源导入、实时图表生成和数据清洗功能。
+                        用户可以通过简单的拖拽操作完成复杂的数据分析任务。
+                    </p>
+                    <div class="project-details">
+                        <p><strong>技术栈：</strong> Python, Streamlit, Pandas, Plotly, SQLite</p>
+                        <p><strong>核心功能：</strong></p>
+                        <ul>
+                            <li>支持 CSV/Excel/JSON 多格式导入</li>
+                            <li>20+ 种可视化图表类型</li>
+                            <li>数据清洗和预处理工具</li>
+                            <li>一键生成分析报告</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://yourapp.streamlit.app" target="_blank" class="btn btn-primary">
+                            🌐 在线演示
+                        </a>
+                        <a href="https://github.com/yourusername/project1" target="_blank" class="btn btn-secondary">
+                            📦 查看代码
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 项目2 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>🤖 AI 智能聊天助手</h3>
+                    <span class="project-tag">Vercel</span>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        <strong>项目简介：</strong>
+                        集成 GPT-4 的智能对话系统，支持多轮对话、上下文记忆和个性化回复。
+                        采用现代化的前端设计，提供流畅的用户体验。
+                    </p>
+                    <div class="project-details">
+                        <p><strong>技术栈：</strong> React, Next.js, OpenAI API, Tailwind CSS</p>
+                        <p><strong>核心功能：</strong></p>
+                        <ul>
+                            <li>实时流式响应</li>
+                            <li>对话历史保存</li>
+                            <li>多种对话模式（创意/严谨/平衡）</li>
+                            <li>Markdown 渲染和代码高亮</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://yourproject.vercel.app" target="_blank" class="btn btn-primary">
+                            🌐 在线演示
+                        </a>
+                        <a href="https://github.com/yourusername/project2" target="_blank" class="btn btn-secondary">
+                            📦 查看代码
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 项目3 -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>📝 个人技术博客</h3>
+                    <span class="project-tag">GitHub Pages</span>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        <strong>项目简介：</strong>
+                        使用静态网站生成器搭建的个人博客，记录学习笔记、技术分享和项目总结。
+                        支持 Markdown 写作，自动部署到 GitHub Pages。
+                    </p>
+                    <div class="project-details">
+                        <p><strong>技术栈：</strong> Jekyll / Hugo, HTML/CSS, JavaScript, GitHub Actions</p>
+                        <p><strong>核心功能：</strong></p>
+                        <ul>
+                            <li>Markdown 文章管理</li>
+                            <li>标签和分类系统</li>
+                            <li>全文搜索功能</li>
+                            <li>评论系统集成（Giscus）</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://yourusername.github.io/blog" target="_blank" class="btn btn-primary">
+                            🌐 访问博客
+                        </a>
+                        <a href="https://github.com/yourusername/blog" target="_blank" class="btn btn-secondary">
+                            📦 查看源码
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 更多项目... -->
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>🎮 在线小游戏合集</h3>
+                    <span class="project-tag">纯前端</span>
+                </div>
+                <div class="project-content">
+                    <p class="project-description">
+                        <strong>项目简介：</strong>
+                        使用原生 JavaScript 开发的小游戏合集，包含贪吃蛇、俄罗斯方块、2048 等经典游戏，
+                        无需后端，纯前端实现。
+                    </p>
+                    <div class="project-details">
+                        <p><strong>技术栈：</strong> HTML5 Canvas, Vanilla JavaScript, CSS3</p>
+                        <p><strong>核心功能：</strong></p>
+                        <ul>
+                            <li>5+ 款经典小游戏</li>
+                            <li>本地排行榜</li>
+                            <li>响应式设计，支持移动端</li>
+                            <li>自定义难度设置</li>
+                        </ul>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://yourusername.github.io/games" target="_blank" class="btn btn-primary">
+                            🌐 立即游玩
+                        </a>
+                        <a href="https://github.com/yourusername/games" target="_blank" class="btn btn-secondary">
+                            📦 查看代码
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>📬 联系我</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email</h3>
+                    <a href="mailto:your.email@example.com">your.email@example.com</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🐙</div>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/yourusername" target="_blank">@yourusername</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">💼</div>
+                    <h3>LinkedIn</h3>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank">Your Name</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">🐦</div>
+                    <h3>Twitter</h3>
+                    <a href="https://twitter.com/yourusername" target="_blank">@yourusername</a>
+                </div>
+            </div>
+            <div class="contact-form-note">
+                <p>💡 欢迎联系我讨论项目合作、技术交流或任何有趣的想法！</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2024 张三. Made with ❤️ using GitHub Pages</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
